@@ -1,0 +1,127 @@
+/*Kleuren*/
+:root {
+    --wit: #FFFEFD;
+    --lighter: #F1EDE7;
+    --light: #D4C3AF;
+    --dark: #C09D7D;
+    --darkest: #8B633D;
+    --black: #0C0600
+}
+
+/*algemeen*/
+body{
+    background-color: var(--white);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Kalnia';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5em;
+    color: var(--lighter);
+}
+
+h2{
+    font-family: 'Kalnia';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    color: var(--black);
+}
+
+h3{
+    font-family: 'Kalnia';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8em;
+    color: var(--black);
+}
+
+h4{
+    font-family: 'Kalnia';
+    font-weight: 500;
+    font-style: normal;
+    color: var(--black);
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 1.4em;
+}
+
+p, li{
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-style: light;
+    color: var(--black);
+    letter-spacing: 3px;
+    line-height: 1.6em;
+    font-size: 12pt;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-style: light;
+    color: var(--black);
+    letter-spacing: 2px;
+    line-height: 1.6em;
+    font-size: 12pt;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header section*/
+.content__image{
+    background-image: url(../images/bgi2.png);
+    margin: 0;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.content__image h1{
+    margin-top: 20%;
+}
+
+.content__image h1,p,a {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content__image p{
+    color: var(--lighter);
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--dark); 
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    color: var(--black);
+}
