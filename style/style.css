@@ -256,7 +256,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: left;
-    max-width: 400px;
+    max-width: 340px;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 40px;
@@ -296,7 +296,7 @@ html {
 .lymfe {
     transition: background-color 0.4s ease, padding 0.3s ease;
     width: 100%;
-    max-width: 400px;
+    max-width: 280px;
     box-sizing: border-box;
 }
 
