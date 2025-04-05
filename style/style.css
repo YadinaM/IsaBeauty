@@ -179,24 +179,26 @@ html {
 
 /*einde menu*/
 
-.hidden{
+.hidden {
     display: none;
 }
 
-#behandelingen {
+.behandelingen {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center;
     gap: 20px;
 }
 
-.behandeling{
+.behandeling {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
     position: relative;
+    max-width: 400px;
+    width: 100%;
 }
 
 .product__img{
@@ -243,4 +245,134 @@ html {
 .meer__info img{
     height: 100%;
     width: 20px;
+}
+
+.lymfe.active {
+    background-color: var(--light);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.afspraak.active {
+    background-color: var(--darkest) !important;
+    color: var(--lighter) !important;
+}
+
+.meer__info.active {
+    background-color: var(--light);
+}
+
+.info__behandeling__extra {
+    max-width: 400px;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: flex-start;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.info__behandeling__extra h3,
+.info__behandeling__extra p {
+    margin: 0 0 10px 0;
+}
+
+.meer__info img {
+    transition: transform 0.3s ease;
+}
+
+.lymfe {
+    transition: background-color 0.4s ease, padding 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.afspraak {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.meer__info {
+    transition: background-color 0.3s ease;
+}
+
+.meer__info img {
+    transition: transform 0.3s ease;
+}
+
+.info__behandeling__extra__dienst {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.info__behandeling__extra__dienst img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    transition: transform 0.3s ease;
+}
+
+.info__behandeling__extra__dienst h4,
+.info__behandeling__extra__dienst p {
+    margin: 0;
+}
+
+.info__behandeling__extra__dienst h4{
+    font-size: 14pt;
+}
+
+.info__behandeling__extra__dienst .prijs {
+    margin: 0;                       
+    font-size: 0.9rem;               
+    color: var(--black);                      
+    white-space: nowrap;
+}
+
+.toggle {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding-left: 30px;
+}
+
+.toggle.open {
+    max-height: 200px; 
+}
+
+.toggle p {
+    margin: 0;
+    margin-top: 2px;
+    text-align: left;
+    margin-bottom: 20px
+}
+
+.info__behandeling__extra__dienst__prijs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    align-self: flex-end;
+    margin-bottom: 12px;
+}
+
+.info__behandeling__extra__dienst__prijs .prijs {
+    text-align: right;             
+    font-size: 0.9rem;             
+    color: var(--black);                   
 }

@@ -15,3 +15,52 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.querySelectorAll('.lymfe .info-button').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const behandelingDiv = button.closest('.lymfe');
+        const infoBox = behandelingDiv.querySelector('.info-behandeling');
+        const hoofdBehandeling = behandelingDiv.querySelector('.behandeling');
+        const afspraakBtn = behandelingDiv.querySelector('.afspraak');
+        const infoBtn = button;
+        const infoContainer = button.closest('.meer__info');
+        const img = infoContainer.querySelector('img');
+
+        const isOpen = !infoBox.classList.contains('hidden');
+
+        if (!isOpen) {
+            // Openen
+            infoBox.classList.remove('hidden');
+            behandelingDiv.classList.add('active');
+            afspraakBtn.classList.add('active');
+            infoContainer.classList.add('active');
+            infoBtn.textContent = 'Minder info';
+            img.src = 'images/arrow-left.png';
+        } else {
+            // Sluiten
+            infoBox.classList.add('hidden');
+            behandelingDiv.classList.remove('active');
+            afspraakBtn.classList.remove('active');
+            infoContainer.classList.remove('active');
+            infoBtn.textContent = 'Meer info';
+            img.src = 'images/arrow-right.png';
+        }
+    });
+});
+
+document.querySelectorAll('.info__behandeling__extra__dienst').forEach((dienst, index) => {
+    dienst.addEventListener('click', () => {
+      const toggle = dienst.nextElementSibling;
+      const img = dienst.querySelector('img');
+
+      toggle.classList.toggle('open');
+
+      if (toggle.classList.contains('open')) {
+        img.src = 'images/arrow-down.png';
+      } else {
+        img.src = 'images/arrow-right-info.png';
+      }
+    });
+  });
