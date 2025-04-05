@@ -71,7 +71,7 @@ a{
     font-family: 'Comfortaa';
     font-weight: 500;
     font-style: light;
-    color: var(--black);
+    color: var(--darkest); 
     letter-spacing: 2px;
     line-height: 1.6em;
     font-size: 12pt;
@@ -134,6 +134,8 @@ html {
     text-align: center;
 }
 
+/*menu*/
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -173,4 +175,72 @@ html {
     align-items: center;
     white-space: nowrap;
     font-weight: 800;
+}
+
+/*einde menu*/
+
+.hidden{
+    display: none;
+}
+
+#behandelingen {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.behandeling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.product__img{
+    width: 100%;
+}
+
+.behandeling h3{
+    font-size: 18pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.behandeling .afspraak{
+    background-color: var(--wit);
+    border: 2px solid var(--darkest);
+    color: var(--darkest); 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    font-weight: 800;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.meer__info{
+    background-color: var(--wit);
+    border: 2px solid var(--darkest);
+    color: var(--darkest); 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: 800;
+    text-align: center; 
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.meer__info img{
+    height: 100%;
+    width: 20px;
 }
