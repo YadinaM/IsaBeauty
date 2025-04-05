@@ -125,3 +125,52 @@ html {
     transition: background-color 0.3s ease;
     color: var(--black);
 }
+
+/*Onze diensten*/
+.diensten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu__item a{
+    background-color: var(--wit);
+    border: 2px solid var(--darkest);
+    color: var(--darkest); 
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+.menu__item .active{
+    background-color: var(--darkest);
+    border: 2px solid var(--darkest);
+    color: var(--black); 
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 800;
+}
