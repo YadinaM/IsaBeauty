@@ -88,12 +88,12 @@ html {
 
 /*header section*/
 .content__image{
-    background-image: url(../images/bgi2.png);
+    background-image: url(../images/bgi-mobile.png);
     margin: 0;
     height: 100vh; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom; 
+    background-position: bottom 50px left -600px; 
     display: flex;
     flex-direction: column;
     justify-content: top;
