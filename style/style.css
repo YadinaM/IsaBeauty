@@ -80,6 +80,10 @@ a{
 .content{
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 html {
@@ -376,3 +380,72 @@ html {
     font-size: 0.9rem;             
     color: var(--black);                   
 }
+
+/*over mij*/
+.over-mij {
+    margin-top: 88px;
+    background-color: var(--lighter);
+    padding: 20px 20px;
+    margin-left: -10%;
+    margin-right: -10%;
+    width: 110%;
+}
+
+.over-mij img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 40px;
+}
+
+.over-mij h2 {
+    margin: 0; /* Verwijder marge voor de heading */
+    margin-bottom: 34px;
+}
+
+.over-mij p {
+    margin: 10px 0; /* Voeg marge toe boven en onder de paragraaf */
+}
+
+.over-mij a {
+    background-color: var(--lighter);
+    border: 2px solid var(--darkest);
+    color: var(--darkest); 
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 34px;
+    margin-bottom: 80px;
+}
+
+/*eximia*/
+.over-machine{
+    background-color: var(--lighter);
+    padding: 20px 20px;
+    margin-left: -10%;
+    margin-right: -10%;
+    width: 110%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+}
+
+.over-machine img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 40px;
+}
+
+.over-machine h2 {
+    margin: 0; /* Verwijder marge voor de heading */
+    margin-bottom: 34px;
+}
+
+.over-machine p {
+    margin: 10px 0; /* Voeg marge toe boven en onder de paragraaf */
+} 
