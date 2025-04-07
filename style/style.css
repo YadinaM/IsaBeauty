@@ -544,3 +544,38 @@ html {
     height: 32px;
     margin-right: 20px;
 }
+
+/*insta*/
+.insta {
+    position: relative; 
+    overflow: hidden; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.slider-wrapper2 {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .slider-container2 {
+    width: 100%;
+  }
+  
+  .slider2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .post {
+    flex: 0 0 100%; 
+  }  
+
+    .post img {
+        width: 100%; 
+        height: auto; 
+        max-height: 100%; 
+        object-fit: cover; 
+    }
