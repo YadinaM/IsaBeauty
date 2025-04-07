@@ -442,12 +442,12 @@ html {
 }
 
 .over-machine h2 {
-    margin: 0; /* Verwijder marge voor de heading */
+    margin: 0; 
     margin-bottom: 34px;
 }
 
 .over-machine p {
-    margin: 10px 0; /* Voeg marge toe boven en onder de paragraaf */
+    margin: 10px 0;
 } 
 
 /*Reviews*/
@@ -516,4 +516,31 @@ html {
 
 .dot.active {
     background-color: var(--dark);
+}
+
+/*contact*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.contact .img{
+    display: none;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.contact__info img{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
 }
