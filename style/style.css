@@ -449,3 +449,71 @@ html {
 .over-machine p {
     margin: 10px 0; /* Voeg marge toe boven en onder de paragraaf */
 } 
+
+/*Reviews*/
+.reviews {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.slider-wrapper {
+    position: relative; 
+    width: 100%; 
+    padding: 20px; 
+    overflow: visible; 
+    box-shadow: 0px 4px 10px rgba(211, 211, 211, 0.7); 
+    border-radius: 8px;
+    background-color: var(--lighter);
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px; /* Hoeken van de reviews afronden */
+}
+
+.review img {
+    width: 60%;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: var(--light);
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: var(--dark);
+}

@@ -98,3 +98,45 @@ containers.forEach(container => {
         container.style.display = 'none';
     }
 });
+
+let currentIndex = 0;
+const reviews = document.querySelectorAll('.review');
+const dots = document.querySelectorAll('.dot');
+const totalReviews = reviews.length;
+
+// Functie om de actieve review en dot bij te werken
+function updateSlider() {
+    const slider = document.getElementById('slider');
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    // Update de dots
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+    });
+}
+
+// Functie om naar de volgende review te gaan
+function nextReview() {
+    currentIndex = (currentIndex + 1) % totalReviews;
+    updateSlider();
+}
+
+// Functie om naar de vorige review te gaan
+function previousReview() {
+    currentIndex = (currentIndex - 1 + totalReviews) % totalReviews;
+    updateSlider();
+}
+
+// Auto-slide elke 3 seconden
+setInterval(nextReview, 3000);
+
+// Event listeners voor de dots
+dots.forEach(dot => {
+    dot.addEventListener('click', (e) => {
+        currentIndex = parseInt(e.target.dataset.index);
+        updateSlider();
+    });
+});
+
+// Initiële weergave
+updateSlider();
