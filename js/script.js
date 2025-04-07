@@ -64,3 +64,37 @@ document.querySelectorAll('.info__behandeling__extra__dienst').forEach((dienst, 
       }
     });
   });
+
+const tabs = document.querySelectorAll('.tab-btn');
+const containers = document.querySelectorAll('.behandeling-container');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', (e) => {
+        e.preventDefault(); 
+        tabs.forEach(t => t.classList.remove('active'));
+        
+        tab.classList.add('active');
+        
+        const selectedCategory = tab.getAttribute('data-category');
+        
+        containers.forEach(container => {
+            if (selectedCategory === 'alle') {
+                container.style.display = 'block';
+            } else {
+                if (container.getAttribute('data-category') === selectedCategory) {
+                    container.style.display = 'block';
+                } else {
+                    container.style.display = 'none';
+                }
+            }
+        });
+    });
+});
+
+containers.forEach(container => {
+    if (container.getAttribute('data-category') === 'populair') {
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+});
