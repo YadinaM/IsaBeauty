@@ -16,17 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.querySelectorAll('.lymfe .info-button').forEach(button => {
-    button.addEventListener('click', function(e) {
+document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
+    link.addEventListener('click', function(e) {
         e.preventDefault();
 
-        const behandelingDiv = button.closest('.lymfe');
+        const behandelingDiv = link.closest('.lymfe');
         const infoBox = behandelingDiv.querySelector('.info-behandeling');
         const hoofdBehandeling = behandelingDiv.querySelector('.behandeling');
         const afspraakBtn = behandelingDiv.querySelector('.afspraak');
-        const infoBtn = button;
-        const infoContainer = button.closest('.meer__info');
-        const img = infoContainer.querySelector('img');
+        const infoBtn = behandelingDiv.querySelector('.info-button');;
+        const infoContainer = link;
+        const img = link.querySelector('img');
 
         const isOpen = !infoBox.classList.contains('hidden');
 

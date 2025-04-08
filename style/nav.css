@@ -6,9 +6,7 @@ nav{
 
 .logo-container a{
     text-decoration: none;
-    color: #D9D4CA;
-    font-family: 'Comfortaa';
-    font-size: 2.4em;
+    margin-left: -10px;
 }
 
 .navigatie {
