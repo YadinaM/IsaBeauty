@@ -188,25 +188,42 @@ html {
 }
 
 .behandelingen {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.behandeling {
+.behandeling-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    width: 100%;
+    font-size: 0;
+}
+
+.behandeling-container div{
+    height: 100%;
+    width: 280px;
+}
+
+.behandeling{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
-    position: relative;
-    max-width: 400px;
-    width: 100%;
+}
+
+.lymfe {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top; 
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .product__img{
-    width: 100%;
+    width: 280px;
+    height: auto;
 }
 
 .behandeling h3{
@@ -299,13 +316,6 @@ html {
 
 .meer__info img {
     transition: transform 0.3s ease;
-}
-
-.lymfe {
-    transition: background-color 0.4s ease, padding 0.3s ease;
-    width: 100%;
-    max-width: 280px;
-    box-sizing: border-box;
 }
 
 .afspraak {
