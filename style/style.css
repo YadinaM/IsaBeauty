@@ -617,3 +617,22 @@ footer{
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: red;
+    }
+
+    .content__image{
+        background-image: url(../images/bgi.png);
+        margin: 0;
+        height: 100vh; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+    }
+
+    .content__image h1, p, a{
+        max-width: 400px;
+    }
+}
