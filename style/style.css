@@ -756,7 +756,7 @@ footer{
         margin-top: 88px;
     }
     
-    .over__mij__afbeelding {
+    .over__mij__image {
         height: auto; 
     }
     
@@ -771,7 +771,7 @@ footer{
     
     .over__mij__text {
         padding-top: 40px;
-        width: 50%; 
+        width: 39%; 
         margin-right: 10%;
         margin-left: 80px;
     }
@@ -779,4 +779,39 @@ footer{
     .over__mij__text p {
         font-size: 0.8em;
     }    
+
+    /*over machien*/
+    .over-machine{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .over__machien__image {
+        height: auto; 
+    }
+    
+    .over-machine img {
+        display: block;
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .over__machien__text {
+        padding-top: 40px;
+        width: 40%; 
+        margin-left: 10%;
+        margin-right: 80px;
+    }
+    
+    .over__machien__text p {
+        font-size: 0.8em;
+    } 
 }
