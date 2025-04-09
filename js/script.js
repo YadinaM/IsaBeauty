@@ -107,7 +107,8 @@ const totalReviews = reviews.length;
 
 function updateSlider() {
     const slider = document.getElementById('slider');
-    slider.style.transform = `translateX(-${currentIndex * 110}%)`;
+    const moveAmount = window.innerWidth < 768 ? 100 : 110;
+    slider.style.transform = `translateX(-${currentIndex * moveAmount}%)`;
 
     dots.forEach((dot, index) => {
         dot.classList.toggle('active', index === currentIndex);
