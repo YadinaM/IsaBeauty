@@ -881,4 +881,43 @@ footer{
     .review h4{
         margin-bottom: 4px;
     }
+
+    /*Contact*/
+    .contact{
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .over__contact__image {
+        height: auto; 
+    }
+    
+    .over__contact__image img {
+        display: block;
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .contact__text {
+        padding-top: 40px;
+        width: 40%; 
+        margin-left: 10%;
+        margin-right: 80px;
+    }
+    
+    .contact__text p {
+        font-size: 0.8em;
+    } 
+
+    .contact__info img{
+        width: 20px;
+        height: 20px;
+    }
 }
