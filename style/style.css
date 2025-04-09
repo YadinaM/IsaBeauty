@@ -920,4 +920,53 @@ footer{
         width: 20px;
         height: 20px;
     }
+
+    /*socials*/
+    .insta {
+        position: relative; 
+        overflow: hidden; 
+        width: 100%; 
+        height: 100%; 
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .slider-wrapper2 {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .slider-container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .slider2 {
+        display: flex;
+        flex-direction: row;
+        width: 26.66%;
+        gap: 20px;
+    }
+
+    /*footer*/
+    .footer__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+
+    .footer__content a{
+        font-size: 10pt;
+    }
+
+    .footer__content H3{
+        font-size: 14pt;
+    }
 }
