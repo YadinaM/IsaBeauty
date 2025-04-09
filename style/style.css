@@ -633,6 +633,10 @@ footer{
 
 @media only screen and (min-width: 600px) {
 
+    .content{
+        margin: 0;
+    }
+
     /* header */
     .content__image{
         background-image: url(../images/bgi.png);
@@ -641,13 +645,24 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; 
+        display: flex;
+        justify-content: center;
     }
 
-    .content__image h1, p, a{
-        max-width: 400px;
+    .content__image__text{
+        width: 45%;
+        margin-top: -10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     /*diensten*/
+
+    .diensten{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .lymfe.active {
         flex-direction: row;
         align-items: center;
@@ -728,4 +743,40 @@ footer{
     .toggle {
         width: 100% !important;
     }
+
+    /*over mij section*/
+    .over-mij {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 88px;
+    }
+    
+    .over__mij__afbeelding {
+        height: auto; 
+    }
+    
+    .over-mij img {
+        display: block;
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .over__mij__text {
+        padding-top: 40px;
+        width: 50%; 
+        margin-right: 10%;
+        margin-left: 80px;
+    }
+    
+    .over__mij__text p {
+        font-size: 0.8em;
+    }    
 }
