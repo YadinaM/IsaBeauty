@@ -629,10 +629,8 @@ footer{
 }
 
 @media only screen and (min-width: 600px) {
-    body{
-        background-color: red;
-    }
 
+    /* header */
     .content__image{
         background-image: url(../images/bgi.png);
         margin: 0;
@@ -644,5 +642,64 @@ footer{
 
     .content__image h1, p, a{
         max-width: 400px;
+    }
+
+    /*diensten*/
+    .lymfe.active {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .behandeling {
+        width: 280px;
+        flex-shrink: 0;
+    }
+
+    .info-behandeling {
+        display: block !important;
+        width: 100%;
+    }
+
+    .info__behandeling__extra {
+        align-items: flex-start;
+        padding-left: 0;
+    }
+
+    .info-behandeling.hidden {
+        display: none !important;
+    }
+
+    .behandeling-afbeelding {
+        flex: 1;
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 300px;
+    }
+    
+    .behandeling-afbeelding img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .info-behandeling {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #000;
+    }
+    
+    .info-behandeling p {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .info-behandeling h3 {
+        font-family: "Kalnia";
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 }

@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//alles voor diensten knop
 document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -49,7 +50,7 @@ document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
         }
     });
 });
-
+//toggle bij diensten
 document.querySelectorAll('.info__behandeling__extra__dienst').forEach((dienst, index) => {
     dienst.addEventListener('click', () => {
       const toggle = dienst.nextElementSibling;
@@ -98,7 +99,7 @@ containers.forEach(container => {
         container.style.display = 'none';
     }
 });
-
+//reviews
 let currentIndex = 0;
 const reviews = document.querySelectorAll('.review');
 const dots = document.querySelectorAll('.dot');
