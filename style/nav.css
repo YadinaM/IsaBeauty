@@ -126,4 +126,8 @@ nav{
         padding: 8px 12px;
         border-radius: 8px;
     }
+
+    .logo-container img{
+        height: 45px;
+    }
 }
