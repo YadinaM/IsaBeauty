@@ -1,7 +1,16 @@
-/*Navigatie*/
+/*Kleuren*/
+:root {
+    --wit: #FFFEFD;
+    --lighter: #F1EDE7;
+    --light: #D4C3AF;
+    --dark: #C09D7D;
+    --darkest: #8B633D;
+    --black: #0C0600
+}
 
+/*Navigatie*/
 nav{
-    background-color: #D4C3AF;
+    background-color: var(--light);
 }
 
 .logo-container a{
@@ -33,7 +42,7 @@ nav{
     right: -100%; 
     width: 100%;
     height: 100vh;
-    background-color: #D4C3AF; 
+    background-color: var(--light); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +57,7 @@ nav{
     font-style: normal;
     font-size: 2em;
     text-decoration: none;
-    color: #0C0600;
+    color: var(--black);
     margin-bottom: 1em;
 }
 
@@ -67,7 +76,7 @@ nav{
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #0C0600;
+    background-color: var(--black);
 }
 
 .hamburger.open .bar:nth-child(1) {
@@ -78,4 +87,43 @@ nav{
 }
 .hamburger.open .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .klik {
+        position: static;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        justify-content: flex-end;
+        gap: 30px;
+        transition: none;
+    }
+
+    .klik a {
+        font-size: 1em;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .logo-container {
+        position: static;
+        transform: none;
+        margin-right: auto;
+    }
+
+    .navigatie {
+        padding: 10px 0;
+        margin: 0 10%;
+    }
+
+    #contactnav {
+        background-color: var(--dark);
+        padding: 8px 12px;
+        border-radius: 8px;
+    }
 }
