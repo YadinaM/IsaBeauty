@@ -142,7 +142,8 @@ const totalInstaReviews = posts.length;
 
 function updateInstaSlider() {
     const instaSlider = document.getElementById('insta-slider');
-    instaSlider.style.transform = `translateX(-${currentInstaIndex * 100}%)`;
+    const moveAmount = window.innerWidth < 768 ? 112 : 100;
+    instaSlider.style.transform = `translateX(-${currentInstaIndex * moveAmount}%)`;
 }
 
 function nextInstaReview() {
