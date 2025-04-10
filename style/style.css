@@ -546,7 +546,7 @@ html {
     padding-bottom: 80px;
 }
 
-.contact .img{
+.over__contact__image{
     display: none;
 }
 
@@ -884,7 +884,6 @@ footer{
 
     /*Contact*/
     .contact{
-        margin-left: 10%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -894,10 +893,10 @@ footer{
     
     .over__contact__image {
         height: auto; 
+        display: block;
     }
     
     .over__contact__image img {
-        display: block;
         width: 100%; 
         height: 50%; 
         object-fit: cover; 
