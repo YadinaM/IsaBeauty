@@ -60,12 +60,6 @@ p, li{
     font-size: 12pt;
 }
 
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 a{
     text-decoration: none;
     font-family: 'Comfortaa';
@@ -641,6 +635,9 @@ footer{
 }
 
 @media only screen and (min-width: 600px) {
+    li{
+        font-size: 1em;
+    }
 
     .content{
         margin: 0;
@@ -786,7 +783,7 @@ footer{
     }
     
     .over__mij__text p {
-        font-size: 0.8em;
+        font-size: 1em;
     }    
 
     /*over machien*/
@@ -821,7 +818,7 @@ footer{
     }
     
     .over__machien__text p {
-        font-size: 0.8em;
+        font-size: 1em;
     } 
 
     /*reviews*/
@@ -917,7 +914,7 @@ footer{
     }
     
     .contact__text p {
-        font-size: 0.8em;
+        font-size: 1em;
     } 
 
     .contact__info img{
