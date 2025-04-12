@@ -750,6 +750,24 @@ footer{
         width: 100% !important;
     }
 
+    .behandeling h3 {
+        min-height: 60px; /* of 2.5em, afhankelijk van je lettergrootte */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem; /* optioneel, voor extra ruimte onder titel */
+    }
+
+    .diensten {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     /*over mij section*/
     .over-mij {
         display: flex;
