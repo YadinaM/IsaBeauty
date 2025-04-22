@@ -106,6 +106,19 @@
                 "full": "Full Body",
                 "full_duration": "2-hour treatment."
             }
+        },
+
+        "eximia": {
+            "title": "Eximia HR77",
+            "description": "Eximia is a non-invasive treatment for skin tightening, fat reduction, and cellulite.",
+            "option": {
+                "1": "1 session",
+                "1_duration": "1 hour and 30 minutes treatment.",
+                "2": "4 sessions",
+                "2_duration": "1 hour and 30 minutes treatment.",
+                "3": "6 sessions",
+                "3_duration": "1 hour and 30 minutes treatment."
+            }
         }
 
       },
