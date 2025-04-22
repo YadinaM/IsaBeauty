@@ -380,6 +380,10 @@
     "contact": {
         "title": "Prendre un rendez-vous",
         "description": "Réservez en 1 minute, prenez votre rendez-vous maintenant."
+    },
+
+    "insta": {
+        "title": "Publications Instagram"
     }
       
   }

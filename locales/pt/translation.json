@@ -380,6 +380,10 @@
     "contact": {
         "title": "Agendar um atendimento",
         "description": "Em 1 minuto você resolve, agende agora mesmo."
+    },
+
+    "insta": {
+        "title": "Postagens no Instagram"
     }
       
   }

@@ -381,5 +381,9 @@
       "contact": {
         "title": "Make an Appointment",
         "description": "Booked in 1 minute, schedule your appointment now."
+      },
+
+      "insta": {
+        "title": "Instagram Posts"
       }
   }
