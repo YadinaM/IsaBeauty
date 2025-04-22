@@ -231,6 +231,19 @@
               "3": "6 sessions",
               "3_duration": "Treatment of 1 hour."
             }
+        },
+
+        "led": {
+            "title": "LED Phototherapy",
+            "description": "LED Phototherapy uses light of different wavelengths to stimulate skin regeneration and enhance radiance. Per session (45 min) €45, includes cleansing + meso solutions.",
+            "option": {
+              "1": "1 hour",
+              "1_duration": "Treatment of 1 hour.",
+              "2": "6 sessions",
+              "2_duration": "Treatment of 45 min.",
+              "3": "10 sessions",
+              "3_duration": "Treatment of 45 min."
+            }
         }
 
       },

@@ -231,6 +231,19 @@
               "3": "6 séances",
               "3_duration": "Soin d'une heure."
             }
+        },
+
+        "led": {
+            "title": "Photothérapie LED",
+            "description": "La photothérapie LED utilise des lumières de différentes longueurs d'onde pour stimuler la régénération de la peau et améliorer l'éclat. Par séance (45 min) 45€, incluant nettoyage + solutions méso.",
+            "option": {
+              "1": "1 heure",
+              "1_duration": "Soin d'une heure.",
+              "2": "6 séances",
+              "2_duration": "Soin de 45 min.",
+              "3": "10 séances",
+              "3_duration": "Soin de 45 min."
+            }
         }
     },
     "common": {

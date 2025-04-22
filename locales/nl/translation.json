@@ -233,6 +233,19 @@
               "3": "6 sessies",
               "3_duration": "Behandeling van 1 uur."
             }
+        },
+
+        "led": {
+            "title": "LED Fototherapie",
+            "description": "LED Fototherapie maakt gebruik van licht van verschillende golflengtes om de regeneratie van de huid te stimuleren en de uitstraling te verbeteren. Per sessie (45 min) 45€, inclusief reiniging + meso-oplossingen",
+            "option": {
+              "1": "1 uur",
+              "1_duration": "Behandeling van 1 uur.",
+              "2": "6 sessies",
+              "2_duration": "Behandeling van 45min.",
+              "3": "10 sessies",
+              "3_duration": "Behandeling van 45min."
+            }
         }
 
     },
