@@ -17,6 +17,48 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //alles voor diensten knop
+function getTranslation(key) {
+    const language = document.documentElement.lang;
+    const translations = {
+        "nl": {
+            "more_info": "Meer info",
+            "less_info": "Minder info"
+        },
+        "en": {
+            "more_info": "More info",
+            "less_info": "Less info"
+        },
+        "fr": {
+            "more_info": "Plus d'infos",
+            "less_info": "Moins d'infos"
+        },
+        "pt": {
+            "more_info": "Mais informações",
+            "less_info": "Menos informações"
+        }
+    };
+    return translations[language][key];
+}
+
+// Verander de taalinstelling wanneer een gebruiker een taal kiest
+document.querySelectorAll('.lang-options li').forEach(langOption => {
+    langOption.addEventListener('click', function() {
+        const lang = langOption.getAttribute('data-lang');
+        document.documentElement.lang = lang;  
+        updateTextForLanguage();  
+    });
+});
+
+// Functie om de tekst van de knoppen bij te werken afhankelijk van de geselecteerde taal
+function updateTextForLanguage() {
+    document.querySelectorAll('.lymfe .info-button').forEach(infoBtn => {
+        if (!infoBtn.closest('.lymfe').querySelector('.info-behandeling').classList.contains('hidden')) {
+            infoBtn.textContent = getTranslation("less_info");
+        } else {
+            infoBtn.textContent = getTranslation("more_info");
+        }
+    });
+}
 document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -37,7 +79,7 @@ document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
             behandelingDiv.classList.add('active');
             afspraakBtn.classList.add('active');
             infoContainer.classList.add('active');
-            infoBtn.textContent = 'Minder info';
+            infoBtn.textContent = getTranslation("less_info");
             img.src = 'images/arrow-left.png';
         } else {
             // Sluiten
@@ -45,7 +87,7 @@ document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
             behandelingDiv.classList.remove('active');
             afspraakBtn.classList.remove('active');
             infoContainer.classList.remove('active');
-            infoBtn.textContent = 'Meer info';
+            infoBtn.textContent = getTranslation("more_info");
             img.src = 'images/arrow-right.png';
         }
     });
