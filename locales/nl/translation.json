@@ -176,6 +176,20 @@
                 "3": "6 sessies",
                 "3_duration": "Behandeling van 45min."
             }
+        },
+
+        "exArmen": {
+            "title": "Eximia Armen",
+            "title2": "Behandeling Eximia Lichaam - Armen",
+            "description": "Eximia is een niet-invasieve behandeling voor huidverstrakking, vetreductie en cellulitis.",
+            "option": {
+                "1": "1 sessie",
+                "1_duration": "Behandeling van 45min.",
+                "2": "4 sessies",
+                "2_duration": "Behandeling van 45min.",
+                "3": "6 sessies",
+                "3_duration": "Behandeling van 45min."
+            }
         }
 
     },
