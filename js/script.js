@@ -159,3 +159,35 @@ function previousReview() {
 setInterval(nextInstaReview, 3000);
 
 updateInstaSlider();
+
+//alles voor nav talen kiezen
+const currentLang = document.getElementById('current-lang');
+  const langOptions = document.getElementById('lang-options');
+
+  currentLang.addEventListener('click', () => {
+    langOptions.style.display = langOptions.style.display === 'block' ? 'none' : 'block';
+  });
+
+  document.querySelectorAll('.lang-options li').forEach(item => {
+    item.addEventListener('click', function () {
+      const selectedLang = this.getAttribute('data-lang');
+      const img = this.querySelector('img').src;
+
+      i18next.changeLanguage(selectedLang, () => {
+        $('body').localize();
+      });
+
+      // Update huidige vlag
+      document.querySelector('#current-lang img').src = img;
+
+      // Sluit dropdown
+      langOptions.style.display = 'none';
+    });
+  });
+
+  // Sluit dropdown als je ergens anders klikt
+  document.addEventListener('click', function (e) {
+    if (!document.querySelector('.language-switcher').contains(e.target)) {
+      langOptions.style.display = 'none';
+    }
+  });
