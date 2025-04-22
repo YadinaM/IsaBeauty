@@ -119,6 +119,19 @@
                 "3": "6 sessões",
                 "3_duration": "Tratamento de 1 hora e 30 minutos."
             }
+        },
+
+        "exBody": {
+            "title": "Eximia pernas superiores + inferiores",
+            "description": "Eximia é um tratamento não invasivo para tonificação da pele, redução de gordura e celulite.",
+            "option": {
+              "1": "1 sessão",
+              "1_duration": "Tratamento de 1 hora e 15 minutos.",
+              "2": "4 sessões",
+              "2_duration": "Tratamento de 1 hora e 15 minutos.",
+              "3": "6 sessões",
+              "3_duration": "Tratamento de 1 hora e 15 minutos."
+            }
         }
     },
     "common": {

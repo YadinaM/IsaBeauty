@@ -121,6 +121,19 @@
                 "3": "6 sessies",
                 "3_duration": "Behandeling van 1 uur en 30min."
             }
+        },
+
+        "exBody": {
+            "title": "Eximia boven + onderbenen",
+            "description": "Eximia is een niet-invasieve behandeling voor huidverstrakking, vetreductie en cellulitis.",
+            "option": {
+                "1": "1 sessie",
+                "1_duration": "Behandeling van 1 uur en 15 min.",
+                "2": "4 sessies",
+                "2_duration": "Behandeling van 1 uur en 15 min.",
+                "3": "6 sessies",
+                "3_duration": "Behandeling van 1 uur en 15 min."
+            }
         }
 
     },
