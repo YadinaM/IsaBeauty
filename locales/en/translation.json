@@ -258,6 +258,16 @@
               "3": "9 sessions",
               "3_duration": "Treatment of 1 hour."
             }
+        },
+
+        "detoxLichaam": {
+            "title": "Body Detox",
+            "title2": "Complete Body Detox",
+            "description": "Scrub, drainage (exclusive method), body wrap with heating blanket + infrared (60 min)",
+            "option": {
+              "detox": "Detox",
+              "detox_duration": "1-hour treatment."
+            }
         }
 
       },

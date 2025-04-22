@@ -258,6 +258,16 @@
                 "3": "9 séances",
                 "3_duration": "Traitement d'une heure."
             }
+        },
+
+        "detoxLichaam": {
+            "title": "Détox corps",
+            "title2": "Détox corps Complète",
+            "description": "Gommage, drainage (méthode exclusive), enveloppement avec couverture chauffante + infrarouge (60 min)",
+            "option": {
+              "detox": "Détox",
+              "detox_duration": "Traitement d'une heure."
+            }
         }
     },
     "common": {

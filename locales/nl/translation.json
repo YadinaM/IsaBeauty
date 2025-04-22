@@ -260,7 +260,17 @@
               "3": "9 sessies",
               "3_duration": "Behandeling van 1 uur."
             }
-        }
+        },
+
+        "detoxLichaam": {
+            "title": "Detox lichaam",
+            "title2": "Detox lichaam Compleet",
+            "description": "Scrub, drainage (exclusieve methode), inpakking met verwarmingsdeken + infrarood (60 min)",
+            "option": {
+              "detox": "Detox",
+              "detox_duration": "Behandeling van 1 uur."
+            }
+        }      
 
     },
     "common": {

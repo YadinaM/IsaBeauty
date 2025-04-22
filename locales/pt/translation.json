@@ -258,6 +258,16 @@
               "3": "9 sessões",
               "3_duration": "Tratamento de 1 hora."
             }
+        },
+
+        "detoxLichaam": {
+            "title": "Detox corporal",
+            "title2": "Detox corporal completo",
+            "description": "Esfoliação, drenagem (método exclusivo), envolvimento com manta térmica + infravermelhos (60 min)",
+            "option": {
+              "detox": "Detox",
+              "detox_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {
