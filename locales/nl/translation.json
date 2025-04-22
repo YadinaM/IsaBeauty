@@ -134,6 +134,20 @@
                 "3": "6 sessies",
                 "3_duration": "Behandeling van 1 uur en 15 min."
             }
+        },
+
+        "exLegs": {
+            "title": "Eximia benen",
+            "title2": "Behandeling Eximia Lichaam - Boven- en onderbenen + billen",
+            "description": "Eximia is een niet-invasieve behandeling voor huidverstrakking, vetreductie en cellulitis.",
+            "option": {
+              "1": "1 sessie",
+              "1_duration": "Behandeling van 1 uur en 30min.",
+              "2": "4 sessies",
+              "2_duration": "Behandeling van 1 uur en 30min.",
+              "3": "6 sessies",
+              "3_duration": "Behandeling van 1 uur en 30min."
+            }
         }
 
     },

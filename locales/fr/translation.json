@@ -132,6 +132,20 @@
               "3": "6 séances",
               "3_duration": "Traitement de 1h15."
             }
+        },
+
+        "exLegs": {
+            "title": "Eximia jambes",
+            "title2": "Traitement Eximia Corps - Jambes supérieures et inférieures + fessiers",
+            "description": "Eximia est un traitement non invasif pour raffermir la peau, réduire la graisse et la cellulite.",
+            "option": {
+              "1": "1 séance",
+              "1_duration": "Traitement de 1h30.",
+              "2": "4 séances",
+              "2_duration": "Traitement de 1h30.",
+              "3": "6 séances",
+              "3_duration": "Traitement de 1h30."
+            }
         }
     },
     "common": {
