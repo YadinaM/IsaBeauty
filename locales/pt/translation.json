@@ -20,5 +20,25 @@
         "massage": "Massagem (somente para mulheres)",
         "body": "Corpo",
         "all": "Todos"
+    },
+
+    "treatment": {
+        "lymfe": {
+        "title": "Drenagem Linfática",
+        "description": "A drenagem linfática é uma massagem suave que estimula a circulação da linfa, ajuda a remover toxinas e reduz a retenção de líquidos.",
+            "option": {
+                "face": "Rosto",
+                "face_duration": "Tratamento de 20 minutos",
+                "legs": "Para Pernas Pesadas",
+                "legs_duration": "Tratamento de 30 minutos",
+                "full_body": "Corpo Completo",
+                "full_body_duration": "Tratamento de 1 hora"
+            }
+        }
+    },
+    "common": {
+        "book": "Marcar uma consulta",
+        "moreInfo": "Mais informações"
     }
+      
   }

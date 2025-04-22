@@ -20,5 +20,25 @@
         "massage": "Massage (femmes uniquement)",
         "body": "Corps",
         "all": "Tous"
+    },
+
+    "treatment": {
+        "lymfe": {
+        "title": "Drainage lymphatique",
+        "description": "Le drainage lymphatique est un massage doux qui stimule la circulation de la lymphe, aide à éliminer les toxines et réduit la rétention d'eau.",
+            "option": {
+                "face": "Visage",
+                "face_duration": "Traitement de 20 minutes",
+                "legs": "Pour Jambes Lourdes",
+                "legs_duration": "Traitement de 30 minutes",
+                "full_body": "Corps Complet",
+                "full_body_duration": "Traitement de 1 heure"
+            }
+        }
+    },
+    "common": {
+        "book": "Prendre un rendez-vous",
+        "moreInfo": "Plus d'infos"
     }
+      
   }

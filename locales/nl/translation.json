@@ -20,5 +20,24 @@
         "massage": "Massage (enkel vrouwen)",
         "body": "Lichaam",
         "all": "Alle"
+    },
+
+    "treatment": {
+        "lymfe": {
+        "title": "Lymfedrainage",
+        "description": "Lymfedrainage is een zachte massage die de circulatie van lymfe stimuleert, helpt bij het verwijderen van toxines en het verminderen van vochtretentie.",
+            "option": {
+                "face": "Gezicht",
+                "face_duration": "Behandeling van 20 minuten",
+                "legs": "Voor Zware Benen",
+                "legs_duration": "Behandeling van 30 minuten",
+                "full_body": "Volledige Lichaam",
+                "full_body_duration": "Behandeling van 1 uur"
+            }
+        }
+    },
+    "common": {
+        "book": "Maak een afspraak",
+        "moreInfo": "Meer info"
     }
 }

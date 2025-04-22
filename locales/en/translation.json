@@ -20,5 +20,24 @@
         "massage": "Massage (women only)",
         "body": "Body",
         "all": "All"
-    }
+    },
+
+    "treatment": {
+        "lymfe": {
+          "title": "Lymphatic Drainage",
+          "description": "Lymphatic drainage is a gentle massage that stimulates lymph circulation, helps remove toxins, and reduces fluid retention.",
+          "option": {
+            "face": "Face",
+            "face_duration": "Treatment of 20 minutes",
+            "legs": "For Heavy Legs",
+            "legs_duration": "Treatment of 30 minutes",
+            "full_body": "Full Body",
+            "full_body_duration": "Treatment of 1 hour"
+          }
+        }
+      },
+      "common": {
+        "book": "Make an appointment",
+        "moreInfo": "More info"
+      }
   }
