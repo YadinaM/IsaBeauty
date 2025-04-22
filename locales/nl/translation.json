@@ -307,6 +307,17 @@
               "fullBody": "Volledige lichaam",
               "fullBody_duration": "Behandeling van 2 uur."
             }
+        },
+
+        "ontharingKl": {
+            "title": "Laserontharing kleine zones",
+            "description": "Laserontharing is een snelle en veilige manier om haargroei langdurig te verminderen. Met onze professionele laser geniet je van een gladde huid zonder scheren of waxen.",
+            "option": {
+              "upperLip": "Bovenlip, kin, neus, oren",
+              "upperLip_duration": "Behandeling van 30 min.",
+              "hands": "Handen, voeten, tussen de wenkbrauwen",
+              "hands_duration": "Behandeling van 30 min."
+            }
         }
 
     },

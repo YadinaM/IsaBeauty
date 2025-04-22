@@ -305,7 +305,18 @@
               "fullBody": "Corpo inteiro",
               "fullBody_duration": "Tratamento de 2 horas."
             }
-          }
+        },
+
+        "ontharingKl": {
+            "title": "Depilação a laser pequenas zonas",
+            "description": "A depilação a laser é um método rápido e seguro para reduzir o crescimento de pelos a longo prazo. Com nosso laser profissional, desfrute de uma pele lisa sem precisar depilar ou raspar.",
+            "option": {
+              "upperLip": "Lábio superior, queixo, nariz, orelhas",
+              "upperLip_duration": "Tratamento de 30 min.",
+              "hands": "Mãos, pés, entre as sobrancelhas",
+              "hands_duration": "Tratamento de 30 min."
+            }
+        }
     },
     "common": {
         "book": "Marcar uma consulta",

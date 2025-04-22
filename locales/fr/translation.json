@@ -305,6 +305,17 @@
               "fullBody": "Corps entier",
               "fullBody_duration": "Traitement de 2 heures."
             }
+        },
+
+        "ontharingKl": {
+            "title": "Épilation laser petites zones",
+            "description": "L'épilation au laser est une méthode rapide et sûre pour réduire durablement la pilosité. Avec notre laser professionnel, profitez d'une peau lisse sans rasage ni cire.",
+            "option": {
+              "upperLip": "Moustache, menton, nez, oreilles",
+              "upperLip_duration": "Traitement de 30 min.",
+              "hands": "Mains, pieds, entre les sourcils",
+              "hands_duration": "Traitement de 30 min."
+            }
         }
     },
     "common": {

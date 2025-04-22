@@ -305,6 +305,17 @@
               "fullBody": "Full body",
               "fullBody_duration": "2-hour treatment."
             }
+        },
+
+        "ontharingKl": {
+            "title": "Laser Hair Removal Small Zones",
+            "description": "Laser hair removal is a fast and safe method for long-term hair reduction. With our professional laser, enjoy smooth skin without shaving or waxing.",
+            "option": {
+              "upperLip": "Upper lip, chin, nose, ears",
+              "upperLip_duration": "30-minute treatment.",
+              "hands": "Hands, feet, between the eyebrows",
+              "hands_duration": "30-minute treatment."
+            }
         }
 
       },
