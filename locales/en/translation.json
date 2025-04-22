@@ -376,5 +376,10 @@
         "text3": "It was a great experience!",
         "name4": "Katarzyna",
         "text4": "Very satisfied"
+      },
+
+      "contact": {
+        "title": "Make an Appointment",
+        "description": "Booked in 1 minute, schedule your appointment now."
       }
   }

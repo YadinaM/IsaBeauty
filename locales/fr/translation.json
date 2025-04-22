@@ -375,6 +375,11 @@
         "text3": "C'était une excellente expérience!",
         "name4": "Katarzyna",
         "text4": "Très satisfait"
+    },
+
+    "contact": {
+        "title": "Prendre un rendez-vous",
+        "description": "Réservez en 1 minute, prenez votre rendez-vous maintenant."
     }
       
   }

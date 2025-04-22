@@ -378,5 +378,10 @@
         "text3": "Het was een geweldige ervaring!",
         "name4": "Katarzyna",
         "text4": "Heel tevreden"
+    },
+
+    "contact": {
+        "title": "Maak een afspraak",
+        "description": "Binnen 1 minuut geregeld, boek nu je afspraak."
     }
 }

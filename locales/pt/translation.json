@@ -375,6 +375,11 @@
         "text3": "Foi uma ótima experiência!",
         "name4": "Katarzyna",
         "text4": "Muito satisfeita"
+    },
+
+    "contact": {
+        "title": "Agendar um atendimento",
+        "description": "Em 1 minuto você resolve, agende agora mesmo."
     }
       
   }
