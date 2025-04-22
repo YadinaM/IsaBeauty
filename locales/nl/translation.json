@@ -10,5 +10,15 @@
         "title": "IsaBeauty Studio",
         "subtitle": "Stralen van binnen én buiten begint hier, IsaBeauty zorgt dat jij je op je mooist voelt.",
         "cta": "Maak een afspraak"
+    },
+
+    "services": {
+        "title": "Onze diensten",
+        "popular": "Populair",
+        "eximia": "Eximia behandeling",
+        "face": "Gezicht",
+        "massage": "Massage (enkel vrouwen)",
+        "body": "Lichaam",
+        "all": "Alle"
     }
 }

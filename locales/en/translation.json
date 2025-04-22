@@ -10,5 +10,15 @@
         "title": "IsaBeauty Studio",
         "subtitle": "Radiating from the inside and out starts here—IsaBeauty makes sure you feel your most beautiful.",
         "cta": "Make an appointment"
-      }
+    },
+
+    "services": {
+        "title": "Our Services",
+        "popular": "Popular",
+        "eximia": "Eximia Treatment",
+        "face": "Face",
+        "massage": "Massage (women only)",
+        "body": "Body",
+        "all": "All"
+    }
   }

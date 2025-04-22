@@ -5,10 +5,20 @@
       "reviews": "Avis",
       "contact": "Prendre rendez-vous"
     },
-    
+
     "hero": {
         "title": "IsaBeauty Studio",
         "subtitle": "Rayonner de l’intérieur et de l’extérieur commence ici. IsaBeauty vous aide à vous sentir au top de votre beauté.",
         "cta": "Prendre rendez-vous"
-      }
+    },
+
+    "services": {
+        "title": "Nos services",
+        "popular": "Populaire",
+        "eximia": "Traitement Eximia",
+        "face": "Visage",
+        "massage": "Massage (femmes uniquement)",
+        "body": "Corps",
+        "all": "Tous"
+    }
   }
