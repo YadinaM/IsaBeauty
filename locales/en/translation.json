@@ -205,6 +205,19 @@
                 "micro": "Microdermabrasion",
                 "micro_duration": "Cleansing + serum (vitamin) + soothing mask or LED therapy"
             }
+        },
+
+        "peeling": {
+            "title": "Peeling",
+            "description": "Salicylic Acid Peel 30%: Oily and acne-prone skin\nMandelic Acid Peel 50%: Sensitive and dull skin\nGlycolic Acid Peel 50%: Mature and tired skin\nKojiderm Peel: Skin prone to hyperpigmentation\nLactic Acid Peel 50%: Dry and sensitive skin",
+            "option": {
+              "face": "Face",
+              "face_duration": "Treatment of 40 min.",
+              "prx": "PRX-T33 Peeling",
+              "prx_duration": "Treatment of 1 hour.",
+              "faceAndNeck": "Face, neck, and décolleté",
+              "faceAndNeck_duration": "Treatment of 1 hour."
+            }
         }
 
       },

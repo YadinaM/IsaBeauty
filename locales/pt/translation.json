@@ -205,6 +205,19 @@
               "micro": "Microdermoabrasão",
               "micro_duration": "Limpeza + sérum (vitamina) + máscara calmante ou terapia LED"
             }
+        },
+
+        "peeling": {
+            "title": "Peeling",
+            "description": "Peeling de Ácido Salicílico 30%: Pele oleosa e com tendência à acne\nPeeling de Ácido Mandélico 50%: Pele sensível e sem brilho\nPeeling de Ácido Glicólico 50%: Pele madura e cansada\nPeeling Kojiderm: Pele com tendência à hiperpigmentação\nPeeling de Ácido Lático 50%: Pele seca e sensível",
+            "option": {
+              "face": "Rosto",
+              "face_duration": "Tratamento de 40 min.",
+              "prx": "Peeling PRX-T33",
+              "prx_duration": "Tratamento de 1 hora.",
+              "faceAndNeck": "Rosto, pescoço e decote",
+              "faceAndNeck_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

@@ -207,6 +207,19 @@
               "micro": "Micro-dermabrasie",
               "micro_duration": "Reiniging + serum (vitamine) + kalmerend masker of LED-therapie"
             }
+        },
+
+        "peeling": {
+            "title": "Peeling",
+            "description": "Salicylzuur Peeling 30%: Vette huid en acne-gevoelige huid\nMandelzuur Peeling 50%: Gevoelige en doffe huid\nGlycolzuur Peeling 50%: Rijpere en vermoeide huid\nKojiderm Peeling: Huid gevoelig voor hyperpigmentatie\nLactaat Peeling 50%: Droge en gevoelige huid",
+            "option": {
+              "face": "Gezicht",
+              "face_duration": "Behandeling van 40 min.",
+              "prx": "PRX-T33 Peeling",
+              "prx_duration": "Behandeling van 1 uur.",
+              "faceAndNeck": "Gezicht, hals en decolleté",
+              "faceAndNeck_duration": "Behandeling van 1 uur."
+            }
         }
 
     },
