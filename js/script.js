@@ -160,34 +160,35 @@ setInterval(nextInstaReview, 3000);
 
 updateInstaSlider();
 
-//alles voor nav talen kiezen
-const currentLang = document.getElementById('current-lang');
-  const langOptions = document.getElementById('lang-options');
-
-  currentLang.addEventListener('click', () => {
-    langOptions.style.display = langOptions.style.display === 'block' ? 'none' : 'block';
-  });
-
+      // Taalselectiefunctie toevoegen
   document.querySelectorAll('.lang-options li').forEach(item => {
     item.addEventListener('click', function () {
-      const selectedLang = this.getAttribute('data-lang');
-      const img = this.querySelector('img').src;
+      const selectedLang = this.getAttribute('data-lang');  // Verkrijg de geselecteerde taal
+      const img = this.querySelector('img').src;  // Verkrijg het pad van de geselecteerde vlag
 
+      // Verander de taal met i18next
       i18next.changeLanguage(selectedLang, () => {
+        // Zodra de taal veranderd is, vertaal de pagina
         $('body').localize();
       });
 
-      // Update huidige vlag
+      // Update het vlag-icoon in de dropdown
       document.querySelector('#current-lang img').src = img;
 
-      // Sluit dropdown
-      langOptions.style.display = 'none';
+      // Sluit de dropdown
+      document.getElementById('lang-options').style.display = 'none';
     });
   });
 
-  // Sluit dropdown als je ergens anders klikt
+  // Sluit de dropdown als je buiten de taalkeuze klikt
   document.addEventListener('click', function (e) {
     if (!document.querySelector('.language-switcher').contains(e.target)) {
-      langOptions.style.display = 'none';
+      document.getElementById('lang-options').style.display = 'none';
     }
+  });
+
+  // Toggle de dropdown bij het klikken op de geselecteerde taal
+  document.getElementById('current-lang').addEventListener('click', function() {
+    const langOptions = document.getElementById('lang-options');
+    langOptions.style.display = langOptions.style.display === 'block' ? 'none' : 'block';
   });

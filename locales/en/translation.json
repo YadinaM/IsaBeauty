@@ -1,8 +1,8 @@
 {
     "nav": {
-        "services": "Services",
-        "about": "About me",
-        "reviews": "Reviews",
-        "contact": "Make an appointment"
+      "services": "Services",
+      "about": "About me",
+      "reviews": "Reviews",
+      "contact": "Make an appointment"
     }
-}
+  }
