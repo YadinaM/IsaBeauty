@@ -148,6 +148,20 @@
               "3": "6 sessies",
               "3_duration": "Behandeling van 1 uur en 30min."
             }
+        },
+
+        "exRug": {
+            "title": "Eximia rug, buik en taille",
+            "title2": "Behandeling Eximia Lichaam - Rug, buik en taille",
+            "description": "Eximia is een niet-invasieve behandeling voor huidverstrakking, vetreductie en cellulitis.",
+            "option": {
+              "1": "1 sessie",
+              "1_duration": "Behandeling van 1 uur en 30min.",
+              "2": "4 sessies",
+              "2_duration": "Behandeling van 1 uur en 30min.",
+              "3": "6 sessies",
+              "3_duration": "Behandeling van 1 uur en 30min."
+            }
         }
 
     },
