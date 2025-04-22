@@ -188,6 +188,23 @@
               "3": "6 sessions",
               "3_duration": "45-minute treatment."
             }
+        },
+
+        "gezichtsbehandeling": {
+            "title": "Facial Treatment",
+            "description": "Pamper your skin with our specialized facial treatments, designed to reveal your natural beauty.",
+            "option": {
+                "intensive": "Intensive Hydration",
+                "intensive_duration": "Provides deep hydration for smooth, firm, and radiant skin. Suitable for all skin types, especially dehydrated and dull skin.",
+                "antiAging": "Anti-aging",
+                "antiAging_duration": "Stimulates collagen production and reduces the appearance of wrinkles and fine lines. This treatment firms the skin, improves elasticity, and offers an instant brightening effect.",
+                "acne": "Acne-Prone Skin with Exosomes + LED",
+                "acne_duration": "Advanced treatment for acne-prone and inflamed skin. Exosomes help restore the skin barrier, reduce redness, regulate sebum production, and improve healing of blemishes.",
+                "shine": "Radiant Skin & Even Tone",
+                "shine_duration": "Ideal for dull skin and skin prone to pigmentation. This treatment brightens the complexion, evens the skin tone, and gives an instant boost while deeply hydrating.",
+                "micro": "Microdermabrasion",
+                "micro_duration": "Cleansing + serum (vitamin) + soothing mask or LED therapy"
+            }
         }
 
       },

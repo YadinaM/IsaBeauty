@@ -188,6 +188,23 @@
               "3": "6 sessões",
               "3_duration": "Tratamento de 45 minutos."
             }
+        },
+
+        "gezichtsbehandeling": {
+            "title": "Tratamento Facial",
+            "description": "Mime sua pele com nossos tratamentos faciais especializados, projetados para revelar sua beleza natural.",
+            "option": {
+              "intensive": "Hidratação Intensiva",
+              "intensive_duration": "Proporciona hidratação profunda para uma pele macia, firme e radiante. Adequado para todos os tipos de pele, especialmente desidratadas e opacas.",
+              "antiAging": "Anti-idade",
+              "antiAging_duration": "Estimula a produção de colágeno e reduz a aparência de rugas e linhas finas. Este tratamento firma a pele, melhora a elasticidade e proporciona um efeito iluminador imediato.",
+              "acne": "Pele com tendência à acne com Exossomos + LED",
+              "acne_duration": "Tratamento avançado para peles sensíveis à acne e inflamações. Os exossomos ajudam a restaurar a barreira cutânea, reduzir a vermelhidão, regular a produção de sebo e melhorar a cicatrização de imperfeições.",
+              "shine": "Pele Radiante & Tom Uniforme",
+              "shine_duration": "Ideal para pele opaca e com tendência a manchas. Este tratamento ilumina o tom da pele, uniformiza e proporciona um efeito revitalizante imediato, enquanto hidrata profundamente.",
+              "micro": "Microdermoabrasão",
+              "micro_duration": "Limpeza + sérum (vitamina) + máscara calmante ou terapia LED"
+            }
         }
     },
     "common": {
