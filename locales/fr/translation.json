@@ -34,6 +34,39 @@
                 "full_body": "Corps Complet",
                 "full_body_duration": "Traitement de 1 heure"
             }
+        },
+
+        "presso": {
+            "title": "Pressothérapie",
+            "description": "Stimule le système lymphatique et la circulation veineuse, accélère l'élimination de la lymphe, favorise la relaxation et soutient la détoxification et la purification du corps.",
+            "option": {
+              "1": "1 session",
+              "1_duration": "Traitement de 45 minutes",
+              "2": "5 sessions",
+              "2_duration": "Traitement de 45 minutes",
+              "3": "10 sessions",
+              "3_duration": "Traitement de 45 minutes",
+              "4": "15 sessions",
+              "4_duration": "Traitement de 45 minutes",
+              "5": "20 sessions",
+              "5_duration": "Traitement de 45 minutes"
+            }
+        },
+
+        "mas": {
+            "title": "Massage",
+            "description": "Soulage la tension et détend les muscles.",
+            "option": {
+                "rug": "Massage du dos, du cou et des épaules",
+                "rug_description": "Soulage la tension et détend les muscles du haut du dos.",
+                "rug_duration": "Séance de 30 minutes",
+                "voet": "Massage des pieds et des mollets",
+                "voet_description": "Stimule la circulation sanguine et réduit la fatigue dans les jambes et les pieds.",
+                "voet_duration": "Séance de 30 minutes",
+                "full": "Massage de relaxation complète",
+                "full_description": "Un massage apaisant pour tout le corps.",
+                "full_duration": "Séance d'1 heure"
+            }
         }
     },
     "common": {

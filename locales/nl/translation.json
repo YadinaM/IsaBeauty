@@ -34,6 +34,41 @@
                 "full_body": "Volledige Lichaam",
                 "full_body_duration": "Behandeling van 1 uur"
             }
+        },
+
+        "presso": {
+            "title": "Pressotherapie",
+            "description": "Stimuleert het lymfatische systeem en de veneuze circulatie, versnelt de eliminatie van lymfe, bevordert ontspanning en ondersteunt de ontgifting en zuivering van het lichaam.",
+            "option": {
+                "1": "1 sessie",
+                "2": "5 sessies",
+                "3": "10 sessies",
+                "4": "15 sessies",
+                "5": "20 sessies"
+            },
+            "option_duration": {
+                "1": "Behandeling van 45 minuten",
+                "2": "Behandeling van 45 minuten",
+                "3": "Behandeling van 45 minuten",
+                "4": "Behandeling van 45 minuten",
+                "5": "Behandeling van 45 minuten"
+            }
+        },
+
+        "mas": {
+            "title": "Massage",
+            "description": "Verlicht de spanning en ontspant de spieren.",
+            "option": {
+                "rug": "Rug, Nek en Schoudermassage",
+                "rug_description": "Verlicht de spanning en ontspant de spieren in de bovenrug.",
+                "rug_duration": "Behandeling van 30 minuten",
+                "voet": "Voet en Kuitmassage",
+                "voet_description": "Stimuleert de bloedsomloop en vermindert vermoeidheid in de benen en voeten.",
+                "voet_duration": "Behandeling van 30 minuten",
+                "full": "Volledige Ontspanningsmassage",
+                "full_description": "Een rustgevende massage voor het hele lichaam.",
+                "full_duration": "Behandeling van 1 uur"
+            }
         }
     },
     "common": {

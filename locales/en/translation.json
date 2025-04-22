@@ -34,7 +34,41 @@
             "full_body": "Full Body",
             "full_body_duration": "Treatment of 1 hour"
           }
+        },
+
+        "presso": {
+            "title": "Pressotherapy",
+            "description": "Stimulates the lymphatic system and venous circulation, accelerates lymph elimination, promotes relaxation, and supports the detoxification and purification of the body.",
+            "option": {
+              "1": "1 session",
+              "1_duration": "Treatment of 45 minutes",
+              "2": "5 sessions",
+              "2_duration": "Treatment of 45 minutes",
+              "3": "10 sessions",
+              "3_duration": "Treatment of 45 minutes",
+              "4": "15 sessions",
+              "4_duration": "Treatment of 45 minutes",
+              "5": "20 sessions",
+              "5_duration": "Treatment of 45 minutes"
+            }
+        },
+
+        "mas": {
+            "title": "Massage",
+            "description": "Relieves tension and relaxes the muscles.",
+            "option": {
+                "rug": "Back, Neck and Shoulder Massage",
+                "rug_description": "Relieves tension and relaxes the muscles in the upper back.",
+                "rug_duration": "Treatment of 30 minutes",
+                "voet": "Foot and Calf Massage",
+                "voet_description": "Stimulates blood circulation and reduces fatigue in the legs and feet.",
+                "voet_duration": "Treatment of 30 minutes",
+                "full": "Full Body Relaxation Massage",
+                "full_description": "A soothing massage for the entire body.",
+                "full_duration": "Treatment of 1 hour"
+            }
         }
+
       },
       "common": {
         "book": "Make an appointment",

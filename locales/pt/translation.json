@@ -34,6 +34,39 @@
                 "full_body": "Corpo Completo",
                 "full_body_duration": "Tratamento de 1 hora"
             }
+        },
+
+        "presso": {
+            "title": "Pressoterapia",
+            "description": "Estimula o sistema linfático e a circulação venosa, acelera a eliminação da linfa, promove o relaxamento e apoia a desintoxicação e purificação do corpo.",
+            "option": {
+                "1": "1 sessão",
+                "2": "5 sessões",
+                "3": "10 sessões",
+                "4": "15 sessões",
+                "5": "20 sessões",
+                "1_duration": "Tratamento de 45 minutos",
+                "2_duration": "Tratamento de 45 minutos",
+                "3_duration": "Tratamento de 45 minutos",
+                "4_duration": "Tratamento de 45 minutos",
+                "5_duration": "Tratamento de 45 minutos"
+            }
+        },
+        
+        "mas": {
+            "title": "Massagem",
+            "description": "Alivia a tensão e relaxa os músculos.",
+            "option": {
+                "rug": "Massagem nas Costas, Pescoço e Ombros",
+                "rug_description": "Alivia a tensão e relaxa os músculos da parte superior das costas.",
+                "rug_duration": "Tratamento de 30 minutos",
+                "voet": "Massagem nos Pés e Panturrilhas",
+                "voet_description": "Estimula a circulação sanguínea e reduz a fadiga nas pernas e pés.",
+                "voet_duration": "Tratamento de 30 minutos",
+                "full": "Massagem de Relaxamento Completo",
+                "full_description": "Uma massagem relaxante para todo o corpo.",
+                "full_duration": "Tratamento de 1 hora"
+            }
         }
     },
     "common": {
