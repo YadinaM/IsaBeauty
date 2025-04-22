@@ -82,7 +82,19 @@
                 "3": "9 sessies",
                 "3_duration": "Behandeling van 1 uur."
             }
+        },
+
+        "lip": {
+            "title": "Lipolaser",
+            "description": "Lipolaser is een technologie die gebruik maakt van low-intensity lasers om opgeslagen vet te liquefiëren, wat de natuurlijke eliminatie van vet door het lichaam vergemakkelijkt. Perfect om de lichaamsvorm te verfijnen zonder pijn of invasieve ingrepen.",
+            "option": {
+                "1": "1 sessie",
+                "1_duration": "Behandeling van 1 uur.",
+                "2": "8 sessies",
+                "2_duration": "Behandeling van 1 uur."
+            }
         }
+
     },
     "common": {
         "book": "Maak een afspraak",

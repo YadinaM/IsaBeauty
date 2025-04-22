@@ -80,6 +80,17 @@
                 "3": "9 sessões",
                 "3_duration": "Tratamento de 1 hora."
             }
+        },
+
+        "lip": {
+            "title": "Lipolaser",
+            "description": "Lipolaser é uma tecnologia que usa lasers de baixa intensidade para liquefazer a gordura armazenada, facilitando a eliminação natural da gordura pelo corpo. Perfeito para refinar a forma do corpo sem dor ou procedimentos invasivos.",
+            "option": {
+                "1": "1 sessão",
+                "1_duration": "Tratamento de 1 hora.",
+                "2": "8 sessões",
+                "2_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {
