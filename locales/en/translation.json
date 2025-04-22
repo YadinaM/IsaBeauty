@@ -268,6 +268,15 @@
               "detox": "Detox",
               "detox_duration": "1-hour treatment."
             }
+        },
+
+        "detoxFace": {
+            "title": "Detox Face",
+            "description": "This facial treatment includes a deep cleansing, followed by an enzymatic or mechanical exfoliation, vapozone with comedone extraction, and the application of a purifying mask. It purifies and balances the skin, ideal for tired skin prone to impurities and pollution. Helps unclog pores and restores the skin’s natural glow.",
+            "option": {
+              "face": "Detox Facial Treatment",
+              "face_duration": "This facial treatment includes a deep cleansing, followed by an enzymatic or mechanical exfoliation, vapozone with comedone extraction, and the application of a purifying mask. It purifies and balances the skin, ideal for tired skin prone to impurities and pollution. Helps unclog pores and restores the skin’s natural glow."
+            }
         }
 
       },

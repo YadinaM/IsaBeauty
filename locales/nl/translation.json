@@ -270,7 +270,16 @@
               "detox": "Detox",
               "detox_duration": "Behandeling van 1 uur."
             }
-        }      
+        },
+        
+        "detoxFace": {
+            "title": "Detox Gezicht",
+            "description": "Tijdens deze gezichtsbehandeling wordt er een dieptereiniging uitgevoerd, gevolgd door een enzymatische of mechanische gezichtspeeling, vapozone met extractie van comedonen, en het aanbrengen van een zuiverend masker. Deze behandeling zuivert en brengt de huid in balans, ideaal voor vermoeide huiden, gevoelig voor onzuiverheden en vervuiling. Het helpt verstopte poriën te openen en herstelt de natuurlijke gloed van de huid.",
+            "option": {
+              "face": "Detox Gezichtsbehandeling",
+              "face_duration": "Tijdens deze gezichtsbehandeling wordt er een dieptereiniging uitgevoerd, gevolgd door een enzymatische of mechanische gezichtspeeling, vapozone met extractie van comedonen, en het aanbrengen van een zuiverend masker. Deze behandeling zuivert en brengt de huid in balans, ideaal voor vermoeide huiden, gevoelig voor onzuiverheden en vervuiling. Het helpt verstopte poriën te openen en herstelt de natuurlijke gloed van de huid."
+            }
+        }
 
     },
     "common": {
