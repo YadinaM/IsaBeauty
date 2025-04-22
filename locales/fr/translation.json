@@ -340,9 +340,18 @@
             }
         }
     },
+
     "common": {
         "book": "Prendre un rendez-vous",
         "moreInfo": "Plus d'infos"
+    },
+
+    "about": {
+        "title": "À propos de moi",
+        "text1": "Avec plus de 10 ans d'expérience dans le secteur de la beauté, je combine expertise et une véritable passion pour l'amélioration de la peau et le soin de soi.",
+        "text2": "Au fil des années, j'ai suivi plusieurs formations et obtenu des certifications dans plusieurs pays. Cette expérience internationale m'a permis d'avoir une vision large des dernières techniques et tendances dans le domaine de la beauté.",
+        "text3": "Chez IsaBeauty, la qualité est primordiale. Je travaille avec des produits et des traitements soigneusement sélectionnés, qui donnent de vrais résultats, toujours adaptés à votre peau et à vos besoins.",
+        "cta": "Prendre un rendez-vous"
     }
       
   }

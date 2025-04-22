@@ -341,8 +341,17 @@
         }
 
       },
+
       "common": {
         "book": "Make an appointment",
         "moreInfo": "More info"
+      },
+
+      "about": {
+        "title": "About Me",
+        "text1": "With over 10 years of experience in the beauty industry, I combine expertise with a genuine passion for skin improvement and self-care.",
+        "text2": "Over the years, I have completed various courses and obtained certifications in several countries. This international experience has provided me with a broad perspective on the latest techniques and trends in the beauty industry.",
+        "text3": "At IsaBeauty, quality is key. I work with carefully selected products and treatments that deliver real results, always tailored to your skin and needs.",
+        "cta": "Make an Appointment"
       }
   }

@@ -340,9 +340,18 @@
             }
         }
     },
+
     "common": {
         "book": "Marcar uma consulta",
         "moreInfo": "Mais informações"
+    },
+
+    "about": {
+        "title": "Sobre mim",
+        "text1": "Com mais de 10 anos de experiência na indústria da beleza, combino conhecimento profissional com uma verdadeira paixão pela melhoria da pele e autocuidado.",
+        "text2": "Ao longo dos anos, fiz vários cursos e obtive certificações em vários países. Esta experiência internacional me deu uma ampla visão das mais recentes técnicas e tendências no setor da beleza.",
+        "text3": "Na IsaBeauty, a qualidade é essencial. Trabalho com produtos e tratamentos cuidadosamente selecionados, que oferecem resultados reais, sempre adaptados à sua pele e necessidades.",
+        "cta": "Marcar uma consulta"
     }
       
   }
