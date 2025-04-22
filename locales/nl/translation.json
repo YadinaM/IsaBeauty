@@ -318,6 +318,17 @@
               "hands": "Handen, voeten, tussen de wenkbrauwen",
               "hands_duration": "Behandeling van 30 min."
             }
+        },
+
+        "ontharingMi": {
+            "title": "Laserontharing gemiddelde zones",
+            "description": "Laserontharing is een snelle en veilige manier om haargroei langdurig te verminderen. Met onze professionele laser geniet je van een gladde huid zonder scheren of waxen.",
+            "option": {
+              "oksels": "Oksels, Bikinilijn, Nek, Hals",
+              "oksels_duration": "Behandeling van 1 uur.",
+              "under": "Onderarmen, Volledige armen, Buik, Onderrug",
+              "under_duration": "Behandeling van 1 uur."
+            }
         }
 
     },

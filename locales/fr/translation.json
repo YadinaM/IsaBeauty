@@ -316,6 +316,17 @@
               "hands": "Mains, pieds, entre les sourcils",
               "hands_duration": "Traitement de 30 min."
             }
+        },
+
+        "ontharingMi": {
+            "title": "Épilation laser zones moyennes",
+            "description": "L'épilation au laser est une méthode rapide et sûre pour réduire durablement la pilosité. Avec notre laser professionnel, profitez d'une peau lisse sans rasage ni cire.",
+            "option": {
+              "oksels": "Aisselles, Ligne du bikini, Cou, Gorge",
+              "oksels_duration": "Traitement de 1 heure.",
+              "under": "Avant-bras, Bras entiers, Abdomen, Bas du dos",
+              "under_duration": "Traitement de 1 heure."
+            }
         }
     },
     "common": {

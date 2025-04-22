@@ -316,6 +316,17 @@
               "hands": "Mãos, pés, entre as sobrancelhas",
               "hands_duration": "Tratamento de 30 min."
             }
+        },
+
+        "ontharingMi": {
+            "title": "Depilação a laser zonas médias",
+            "description": "A depilação a laser é um método rápido e seguro para reduzir o crescimento de pelos a longo prazo. Com nosso laser profissional, desfrute de uma pele lisa sem precisar depilar ou raspar.",
+            "option": {
+              "oksels": "Axilas, Linha do bikini, Pescoço, Garganta",
+              "oksels_duration": "Tratamento de 1 hora.",
+              "under": "Antebraços, Braços completos, Abdômen, Parte inferior das costas",
+              "under_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

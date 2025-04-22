@@ -316,6 +316,17 @@
               "hands": "Hands, feet, between the eyebrows",
               "hands_duration": "30-minute treatment."
             }
+        },
+
+        "ontharingMi": {
+            "title": "Laser Hair Removal Medium Zones",
+            "description": "Laser hair removal is a fast and safe method for long-term hair reduction. With our professional laser, enjoy smooth skin without shaving or waxing.",
+            "option": {
+              "oksels": "Armpits, Bikini Line, Neck, Throat",
+              "oksels_duration": "1-hour treatment.",
+              "under": "Forearms, Full Arms, Abdomen, Lower Back",
+              "under_duration": "1-hour treatment."
+            }
         }
 
       },
