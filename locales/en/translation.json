@@ -67,6 +67,19 @@
                 "full_description": "A soothing massage for the entire body.",
                 "full_duration": "Treatment of 1 hour"
             }
+        },
+
+        "endo": {
+            "title": "Endermologie",
+            "description": "Endermologie is a technique of mechanical massage that uses rollers and gentle suction to stimulate blood and lymph circulation. It helps reduce cellulite, firms the skin, and improves the removal of toxins, creating a smoother and firmer body shape.",
+            "option": {
+                "1": "1 session",
+                "1_duration": "Treatment of 1 hour.",
+                "2": "6 sessions",
+                "2_duration": "Treatment of 1 hour.",
+                "3": "9 sessions",
+                "3_duration": "Treatment of 1 hour."
+            }
         }
 
       },

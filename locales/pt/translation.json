@@ -67,6 +67,19 @@
                 "full_description": "Uma massagem relaxante para todo o corpo.",
                 "full_duration": "Tratamento de 1 hora"
             }
+        },
+
+        "endo": {
+            "title": "Endermologia",
+            "description": "A endermologia é uma técnica de massagem mecânica que utiliza rolos e sucção suave para estimular a circulação sanguínea e linfática. Ela ajuda a reduzir a celulite, firma a pele e melhora a remoção de toxinas, criando uma forma corporal mais lisa e firme.",
+            "option": {
+                "1": "1 sessão",
+                "1_duration": "Tratamento de 1 hora.",
+                "2": "6 sessões",
+                "2_duration": "Tratamento de 1 hora.",
+                "3": "9 sessões",
+                "3_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {
