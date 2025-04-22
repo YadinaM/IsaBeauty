@@ -93,6 +93,21 @@
                 "2": "8 sessies",
                 "2_duration": "Behandeling van 1 uur."
             }
+        },
+
+        "ontharing": {
+        "title": "Laserontharing combinaties populair",
+        "description": "Laserontharing is een snelle en veilige manier om haargroei langdurig te verminderen. Met onze professionele laser geniet je van een gladde huid zonder scheren of waxen.",
+            "option": {
+                "oksel": "Oksels + Bikinilijn",
+                "oksel_duration": "Behandeling van 1 uur.",
+                "onder": "Onderbenen + Oksels + Bikinilijn",
+                "onder_duration": "Behandeling van 1 uur.",
+                "legs": "Volledige benen + Bikinilijn + Oksels",
+                "legs_duration": "Behandeling van 1.5 uur.",
+                "full": "Volledige lichaam",
+                "full_duration": "Behandeling van 2 uur."
+            }
         }
 
     },

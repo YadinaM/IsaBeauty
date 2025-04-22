@@ -91,6 +91,21 @@
                 "2": "8 séances",
                 "2_duration": "Séance de 1 heure."
             }
+        },
+
+        "ontharing": {
+            "title": "Épilation laser combinaisons populaires",
+            "description": "L'épilation laser est une méthode rapide et sûre pour réduire durablement la pilosité. Avec notre laser professionnel, profitez d'une peau lisse sans rasage ni cire.",
+            "option": {
+                "oksel": "Aisselles + Ligne du bikini",
+                "oksel_duration": "Traitement de 1 heure.",
+                "onder": "Demi-jambes + Aisselles + Ligne du bikini",
+                "onder_duration": "Traitement de 1 heure.",
+                "legs": "Jambes complètes + Ligne du bikini + Aisselles",
+                "legs_duration": "Traitement de 1,5 heure.",
+                "full": "Corps complet",
+                "full_duration": "Traitement de 2 heures."
+            }
         }
     },
     "common": {

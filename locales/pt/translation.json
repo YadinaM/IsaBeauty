@@ -91,6 +91,21 @@
                 "2": "8 sessões",
                 "2_duration": "Tratamento de 1 hora."
             }
+        },
+
+        "ontharing": {
+            "title": "Depilação a laser combinações populares",
+            "description": "A depilação a laser é uma forma rápida e segura de reduzir o crescimento dos pelos a longo prazo. Com o nosso laser profissional, desfrute de uma pele lisa sem necessidade de depilar ou fazer cera.",
+            "option": {
+                "oksel": "Axilas + Linha do biquíni",
+                "oksel_duration": "Tratamento de 1 hora.",
+                "onder": "Pernas inferiores + Axilas + Linha do biquíni",
+                "onder_duration": "Tratamento de 1 hora.",
+                "legs": "Pernas completas + Linha do biquíni + Axilas",
+                "legs_duration": "Tratamento de 1,5 hora.",
+                "full": "Corpo completo",
+                "full_duration": "Tratamento de 2 horas."
+            }
         }
     },
     "common": {
