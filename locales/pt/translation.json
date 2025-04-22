@@ -277,6 +277,19 @@
               "face": "Tratamento Facial Detox",
               "face_duration": "Este tratamento facial inclui uma limpeza profunda, seguida de esfoliação enzimática ou mecânica, vapozone com extração de comedões e aplicação de uma máscara purificante. Purifica e equilibra a pele, ideal para peles cansadas, propensas a impurezas e poluição. Ajuda a desobstruir os poros e a restaurar o brilho natural da pele."
             }
+        },
+
+        "ultra": {
+            "title": "Ultracavitação",
+            "description": "A ultracavitação utiliza ondas ultrassônicas para eliminar gordura e refinar os contornos corporais. 1 sessão para uma área corporal selecionada (60 min)",
+            "option": {
+              "1": "1 sessão",
+              "1_duration": "Tratamento de 1 hora.",
+              "2": "4 sessões",
+              "2_duration": "Tratamento de 1 hora.",
+              "3": "6 sessões",
+              "3_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

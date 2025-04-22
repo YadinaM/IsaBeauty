@@ -277,6 +277,19 @@
               "face": "Detox Facial Treatment",
               "face_duration": "This facial treatment includes a deep cleansing, followed by an enzymatic or mechanical exfoliation, vapozone with comedone extraction, and the application of a purifying mask. It purifies and balances the skin, ideal for tired skin prone to impurities and pollution. Helps unclog pores and restores the skin’s natural glow."
             }
+        },
+
+        "ultra": {
+            "title": "Ultracavitation",
+            "description": "Ultracavitation uses ultrasonic waves to eliminate fat and refine body contours. 1 treatment for a selected body area (60 min)",
+            "option": {
+              "1": "1 session",
+              "1_duration": "60-minute treatment.",
+              "2": "4 sessions",
+              "2_duration": "60-minute treatment.",
+              "3": "6 sessions",
+              "3_duration": "60-minute treatment."
+            }
         }
 
       },

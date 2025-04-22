@@ -277,6 +277,19 @@
               "face": "Soin Visage Détox",
               "face_duration": "Ce soin du visage comprend un nettoyage en profondeur, suivi d’un gommage enzymatique ou mécanique, vapozone avec extraction de comédons, et l’application d’un masque purifiant. Ce soin purifie et équilibre la peau, idéal pour les peaux fatiguées, sujettes aux impuretés et à la pollution. Il aide à désobstruer les pores et à restaurer l’éclat naturel de la peau."
             }
+        },
+
+        "ultra": {
+            "title": "Ultracavitation",
+            "description": "L'ultracavitation utilise des ondes ultrasonores pour éliminer la graisse et affiner les contours du corps. 1 traitement pour une zone corporelle sélectionnée (60 min)",
+            "option": {
+              "1": "1 séance",
+              "1_duration": "Traitement de 1 heure.",
+              "2": "4 séances",
+              "2_duration": "Traitement de 1 heure.",
+              "3": "6 séances",
+              "3_duration": "Traitement de 1 heure."
+            }
         }
     },
     "common": {

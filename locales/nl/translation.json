@@ -279,6 +279,19 @@
               "face": "Detox Gezichtsbehandeling",
               "face_duration": "Tijdens deze gezichtsbehandeling wordt er een dieptereiniging uitgevoerd, gevolgd door een enzymatische of mechanische gezichtspeeling, vapozone met extractie van comedonen, en het aanbrengen van een zuiverend masker. Deze behandeling zuivert en brengt de huid in balans, ideaal voor vermoeide huiden, gevoelig voor onzuiverheden en vervuiling. Het helpt verstopte poriën te openen en herstelt de natuurlijke gloed van de huid."
             }
+        },
+
+        "ultra": {
+            "title": "Ultracavitatie",
+            "description": "Ultracavitatie maakt gebruik van ultrasone golven om vet te elimineren en de lichaamscontour te verfijnen. 1 behandeling voor een geselecteerd lichaamsdeel (60 min)",
+            "option": {
+              "1": "1 sessie",
+              "1_duration": "Behandeling van 1 uur.",
+              "2": "4 sessies",
+              "2_duration": "Behandeling van 1 uur.",
+              "3": "6 sessies",
+              "3_duration": "Behandeling van 1 uur."
+            }
         }
 
     },
