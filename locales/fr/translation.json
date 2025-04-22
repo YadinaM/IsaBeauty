@@ -4,5 +4,11 @@
       "about": "À propos de moi",
       "reviews": "Avis",
       "contact": "Prendre rendez-vous"
-    }
+    },
+    
+    "hero": {
+        "title": "IsaBeauty Studio",
+        "subtitle": "Rayonner de l’intérieur et de l’extérieur commence ici. IsaBeauty vous aide à vous sentir au top de votre beauté.",
+        "cta": "Prendre rendez-vous"
+      }
   }

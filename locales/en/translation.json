@@ -4,5 +4,11 @@
       "about": "About me",
       "reviews": "Reviews",
       "contact": "Make an appointment"
-    }
+    },
+
+    "hero": {
+        "title": "IsaBeauty Studio",
+        "subtitle": "Radiating from the inside and out starts here—IsaBeauty makes sure you feel your most beautiful.",
+        "cta": "Make an appointment"
+      }
   }
