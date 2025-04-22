@@ -290,6 +290,21 @@
               "3": "6 sessions",
               "3_duration": "60-minute treatment."
             }
+        },
+
+        "ontharingPop": {
+            "title": "Laser Hair Removal Popular Combos",
+            "description": "Laser hair removal is a fast and safe method for long-term hair reduction. With our professional laser, enjoy smooth skin without shaving or waxing.",
+            "option": {
+              "oksels": "Armpits + Bikini line",
+              "oksels_duration": "60-minute treatment.",
+              "onder": "Lower legs + Armpits + Bikini line",
+              "onder_duration": "60-minute treatment.",
+              "fullLeg": "Full legs + Bikini line + Armpits",
+              "fullLeg_duration": "90-minute treatment.",
+              "fullBody": "Full body",
+              "fullBody_duration": "2-hour treatment."
+            }
         }
 
       },
