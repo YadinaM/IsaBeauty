@@ -246,6 +246,20 @@
               "3": "10 sessies",
               "3_duration": "Behandeling van 45min."
             }
+        },
+
+        "afslankend": {
+            "title": "Afslankend",
+            "title2": "Afslankende Behandelingen",
+            "description": "Endermologie is een techniek van mechanische massage die gebruik maakt van rollers en zachte zuiging om de bloed- en lymfecirculatie te stimuleren. Het helpt bij het verminderen van cellulitis, verstevigt de huid en verbetert de afvoer van toxines, waardoor een gladdere en strakkere lichaamsvorm ontstaat.",
+            "option": {
+              "1": "1 sessie",
+              "1_duration": "Behandeling van 1 uur.",
+              "2": "6 sessies",
+              "2_duration": "Behandeling van 1 uur.",
+              "3": "9 sessies",
+              "3_duration": "Behandeling van 1 uur."
+            }
         }
 
     },

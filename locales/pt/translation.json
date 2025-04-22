@@ -244,6 +244,20 @@
               "3": "10 sessões",
               "3_duration": "Tratamento de 45 min."
             }
+        },
+
+        "afslankend": {
+            "title": "Emagrecimento",
+            "title2": "Tratamentos de Emagrecimento",
+            "description": "A endermologia é uma técnica de massagem mecânica que utiliza rolos e sucção suave para estimular a circulação sanguínea e linfática. Ajuda a reduzir a celulite, tonifica a pele e melhora a eliminação de toxinas, resultando numa silhueta mais lisa e firme.",
+            "option": {
+              "1": "1 sessão",
+              "1_duration": "Tratamento de 1 hora.",
+              "2": "6 sessões",
+              "2_duration": "Tratamento de 1 hora.",
+              "3": "9 sessões",
+              "3_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

@@ -244,6 +244,20 @@
               "3": "10 séances",
               "3_duration": "Soin de 45 min."
             }
+        },
+
+        "afslankend": {
+            "title": "Amincissant",
+            "title2": "Traitements Amincissants",
+            "description": "L'endermologie est une technique de massage mécanique qui utilise des rouleaux et une aspiration douce pour stimuler la circulation sanguine et lymphatique. Elle aide à réduire la cellulite, raffermit la peau et améliore l’élimination des toxines, pour une silhouette plus lisse et plus ferme.",
+            "option": {
+                "1": "1 séance",
+                "1_duration": "Traitement d'une heure.",
+                "2": "6 séances",
+                "2_duration": "Traitement d'une heure.",
+                "3": "9 séances",
+                "3_duration": "Traitement d'une heure."
+            }
         }
     },
     "common": {
