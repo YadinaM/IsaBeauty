@@ -220,6 +220,19 @@
               "faceAndNeck": "Gezicht, hals en decolleté",
               "faceAndNeck_duration": "Behandeling van 1 uur."
             }
+        },
+
+        "radio": {
+            "title": "Radiofrequentie",
+            "description": "Radiofrequentie stimuleert de productie van collageen om de huid te verstevigen en rimpels te verminderen.",
+            "option": {
+              "face": "Gezicht, hals en décolleté",
+              "face_duration": "Behandeling van 1 uur.",
+              "2": "4 sessies",
+              "2_duration": "Behandeling van 1 uur.",
+              "3": "6 sessies",
+              "3_duration": "Behandeling van 1 uur."
+            }
         }
 
     },

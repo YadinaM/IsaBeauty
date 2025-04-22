@@ -218,6 +218,19 @@
               "faceAndNeck": "Visage, cou et décolleté",
               "faceAndNeck_duration": "Soin d'une heure."
             }
+        },
+
+        "radio": {
+            "title": "Radiofréquence",
+            "description": "La radiofréquence stimule la production de collagène pour raffermir la peau et réduire les rides.",
+            "option": {
+              "face": "Visage, cou et décolleté",
+              "face_duration": "Soin d'une heure.",
+              "2": "4 séances",
+              "2_duration": "Soin d'une heure.",
+              "3": "6 séances",
+              "3_duration": "Soin d'une heure."
+            }
         }
     },
     "common": {

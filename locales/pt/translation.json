@@ -218,6 +218,19 @@
               "faceAndNeck": "Rosto, pescoço e decote",
               "faceAndNeck_duration": "Tratamento de 1 hora."
             }
+        },
+
+        "radio": {
+            "title": "Radiofrequência",
+            "description": "A radiofrequência estimula a produção de colágeno para firmar a pele e reduzir as rugas.",
+            "option": {
+              "face": "Rosto, pescoço e decote",
+              "face_duration": "Tratamento de 1 hora.",
+              "2": "4 sessões",
+              "2_duration": "Tratamento de 1 hora.",
+              "3": "6 sessões",
+              "3_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

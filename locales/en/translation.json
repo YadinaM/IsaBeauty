@@ -218,6 +218,19 @@
               "faceAndNeck": "Face, neck, and décolleté",
               "faceAndNeck_duration": "Treatment of 1 hour."
             }
+        },
+
+        "radio": {
+            "title": "Radiofrequency",
+            "description": "Radiofrequency stimulates collagen production to firm the skin and reduce wrinkles.",
+            "option": {
+              "face": "Face, neck, and décolleté",
+              "face_duration": "Treatment of 1 hour.",
+              "2": "4 sessions",
+              "2_duration": "Treatment of 1 hour.",
+              "3": "6 sessions",
+              "3_duration": "Treatment of 1 hour."
+            }
         }
 
       },
