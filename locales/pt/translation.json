@@ -384,6 +384,15 @@
 
     "insta": {
         "title": "Postagens no Instagram"
+    },
+
+    "footer": {
+        "links": "Links",
+        "link1": "Serviços",
+        "link2": "Sobre mim",
+        "link3": "Avaliações",
+        "contact": "Contato",
+        "socials": "Redes sociais"
     }
       
   }

@@ -387,5 +387,14 @@
 
     "insta": {
         "title": "Instagram Posts"
+    },
+
+    "footer": {
+        "links": "Links",
+        "link1": "Diensten",
+        "link2": "Over mij",
+        "link3": "Reviews",
+        "contact": "Contact",
+        "socials": "Socials"
     }
 }
