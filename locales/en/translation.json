@@ -364,5 +364,17 @@
         "li3": "Facelift without surgery",
         "li4": "Fast, comfortable sessions",
         "text3": "Non-invasive, painless, and fast, the future of aesthetics."
+      },
+
+      "review": {
+        "title": "Reviews",
+        "name1": "Ana Ichim",
+        "text1": "Superb visit at Isa Beauty! At 50 years old, the owner has a glowing youthfulness. Excellent facial treatment, I will definitely return!",
+        "name2": "Tatiana",
+        "text2": "I was warmly welcomed. She explained which treatments she was doing for me and showed me the products. I left feeling very well taken care of. I will definitely come back.",
+        "name3": "Amrita",
+        "text3": "It was a great experience!",
+        "name4": "Katarzyna",
+        "text4": "Very satisfied"
       }
   }
