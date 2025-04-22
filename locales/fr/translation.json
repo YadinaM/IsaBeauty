@@ -327,6 +327,17 @@
               "under": "Avant-bras, Bras entiers, Abdomen, Bas du dos",
               "under_duration": "Traitement de 1 heure."
             }
+        },
+
+        "ontharingGr": {
+            "title": "Épilation laser zones grandes",
+            "description": "L'épilation au laser est une méthode rapide et sûre pour réduire durablement la pilosité. Avec notre laser professionnel, profitez d'une peau lisse sans rasage ni cire.",
+            "option": {
+              "tigh": "Cuisses, Jambes inférieures",
+              "tigh_duration": "Traitement de 1 heure.",
+              "fullLeg": "Jambes entières, Dos, Poitrine, Fesses",
+              "fullLeg_duration": "Traitement de 1 heure."
+            }
         }
     },
     "common": {

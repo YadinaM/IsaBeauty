@@ -329,6 +329,17 @@
               "under": "Onderarmen, Volledige armen, Buik, Onderrug",
               "under_duration": "Behandeling van 1 uur."
             }
+        },
+
+        "ontharingGr": {
+            "title": "Laserontharing grote zones",
+            "description": "Laserontharing is een snelle en veilige manier om haargroei langdurig te verminderen. Met onze professionele laser geniet je van een gladde huid zonder scheren of waxen.",
+            "option": {
+              "tigh": "Dijen, Onderbenen",
+              "tigh_duration": "Behandeling van 1 uur.",
+              "fullLeg": "Volledige benen, Rug, Borst, Billen",
+              "fullLeg_duration": "Behandeling van 1 uur."
+            }
         }
 
     },

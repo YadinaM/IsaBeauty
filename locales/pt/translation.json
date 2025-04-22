@@ -327,6 +327,17 @@
               "under": "Antebraços, Braços completos, Abdômen, Parte inferior das costas",
               "under_duration": "Tratamento de 1 hora."
             }
+        },
+
+        "ontharingGr": {
+            "title": "Depilação a laser zonas grandes",
+            "description": "A depilação a laser é um método rápido e seguro para reduzir o crescimento de pelos a longo prazo. Com nosso laser profissional, desfrute de uma pele lisa sem precisar depilar ou raspar.",
+            "option": {
+              "tigh": "Coxas, Pernas inferiores",
+              "tigh_duration": "Tratamento de 1 hora.",
+              "fullLeg": "Pernas completas, Costas, Peito, Nádegas",
+              "fullLeg_duration": "Tratamento de 1 hora."
+            }
         }
     },
     "common": {

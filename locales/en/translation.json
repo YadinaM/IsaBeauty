@@ -327,6 +327,17 @@
               "under": "Forearms, Full Arms, Abdomen, Lower Back",
               "under_duration": "1-hour treatment."
             }
+        },
+
+        "ontharingGr": {
+            "title": "Laser Hair Removal Large Zones",
+            "description": "Laser hair removal is a fast and safe method for long-term hair reduction. With our professional laser, enjoy smooth skin without shaving or waxing.",
+            "option": {
+              "tigh": "Thighs, Lower Legs",
+              "tigh_duration": "1-hour treatment.",
+              "fullLeg": "Full Legs, Back, Chest, Buttocks",
+              "fullLeg_duration": "1-hour treatment."
+            }
         }
 
       },
