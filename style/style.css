@@ -684,6 +684,14 @@ footer{
     .info-behandeling {
         display: block !important;
         width: 100%;
+        transform: translateY(-10px);
+        transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .lymfe.active .info-behandeling {
+        max-height: 1000px; 
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .info__behandeling__extra {
