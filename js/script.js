@@ -82,11 +82,11 @@ document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
             infoBtn.textContent = getTranslation("less_info");
             img.src = 'images/arrow-left.png';
 
-            const currentPosition = behandelingDiv.offsetTop;
+            const elementMiddle = behandelingDiv.offsetTop - (window.innerHeight / 2) + (behandelingDiv.offsetHeight / 2);
 
 
             window.scrollTo({
-                top: currentPosition, // Scroll naar de top van het blok
+                top: elementMiddle, // Scroll naar de top van het blok
                 behavior: 'smooth'     // Smooth scroll
             });
         } else {
@@ -98,11 +98,11 @@ document.querySelectorAll('.lymfe .meer__info').forEach(link  => {
             infoBtn.textContent = getTranslation("more_info");
             img.src = 'images/arrow-right.png';
 
-            const currentPosition = behandelingDiv.offsetTop;
+            const elementMiddle = behandelingDiv.offsetTop - (window.innerHeight / 2) + (behandelingDiv.offsetHeight / 2);
 
-            
+
             window.scrollTo({
-                top: currentPosition, // Scroll terug naar de top van het blok
+                top: elementMiddle, // Scroll terug naar de top van het blok
                 behavior: 'smooth'     // Smooth scroll
             });
         }
