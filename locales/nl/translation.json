@@ -61,10 +61,7 @@
             "option": {
                 "rug": "Rug, Nek en Schoudermassage",
                 "rug_description": "Verlicht de spanning en ontspant de spieren in de bovenrug.",
-                "rug_duration": "Behandeling van 30 minuten",
-                "voet": "Voet en Kuitmassage",
-                "voet_description": "Stimuleert de bloedsomloop en vermindert vermoeidheid in de benen en voeten.",
-                "voet_duration": "Behandeling van 30 minuten",
+                "rug_duration": "Behandeling van 45 minuten",
                 "full": "Volledige Ontspanningsmassage",
                 "full_description": "Een rustgevende massage voor het hele lichaam.",
                 "full_duration": "Behandeling van 1 uur"
