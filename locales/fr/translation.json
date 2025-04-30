@@ -195,15 +195,15 @@
             "description": "Offrez à votre peau nos soins du visage spécialisés, conçus pour révéler votre beauté naturelle.",
             "option": {
               "intensive": "Hydratation Intensive",
-              "intensive_duration": "Apporte une hydratation en profondeur pour une peau souple, ferme et éclatante. Convient à tous les types de peau, notamment les peaux déshydratées et ternes.",
+              "intensive_duration": "Traitement de 60 minutes.",
               "antiAging": "Anti-âge",
-              "antiAging_duration": "Stimule la production de collagène et réduit l'apparence des rides et ridules. Ce soin raffermit la peau, améliore son élasticité et apporte un effet éclat immédiat.",
+              "antiAging_duration": "Traitement de 75 minutes.",
               "acne": "Peau à tendance acnéique avec exosomes + LED",
-              "acne_duration": "Soin avancé pour les peaux sujettes à l'acné et aux inflammations. Les exosomes aident à restaurer la barrière cutanée, à réduire les rougeurs, à réguler la production de sébum et à améliorer la guérison des imperfections.",
+              "acne_duration": "Traitement de 75 minutes.",
               "shine": "Peau Éclatante & Teint Uniforme",
-              "shine_duration": "Idéal pour les peaux ternes et sujettes aux taches pigmentaires. Ce soin illumine le teint, unifie la peau et offre un coup d’éclat immédiat tout en hydratant en profondeur.",
+              "shine_duration": "Traitement de 60 minutes.",
               "micro": "Microdermabrasion",
-              "micro_duration": "Nettoyage + sérum (vitamine) + masque apaisant ou thérapie LED"
+              "micro_duration": "Traitement de 60 minutes."
             }
         },
 

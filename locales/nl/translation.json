@@ -194,15 +194,15 @@
             "description": "Verwen je huid met onze gespecialiseerde gezichtsbehandelingen, ontworpen om de natuurlijke schoonheid te onthullen.",
             "option": {
               "intensive": "Intensieve Hydratatie",
-              "intensive_duration": "Zorgt voor diepe hydratatie voor een soepele, stevige en stralende huid. Geschikt voor alle huidtypes, met name voor gedehydrateerde en doffe huid",
+              "intensive_duration": "Behandeling van 60min.",
               "antiAging": "Anti-aging",
-              "antiAging_duration": "Stimuleert de productie van collageen en vermindert het uiterlijk van rimpels en fijne lijntjes. Deze behandeling verstevigt de huid, verbetert de elasticiteit en zorgt voor een onmiddellijk verhelderend effect.",
+              "antiAging_duration": "Behandeling van 75min.",
               "acne": "Acne-gevoelige Huid met Exosomen + LED",
-              "acne_duration": "Geavanceerde behandeling voor huiden die gevoelig zijn voor acne en ontstekingen. Het gebruik van exosomen helpt de huidbarrière te herstellen, roodheid te verminderen, de talgproductie te reguleren en de genezing van onzuiverheden te verbeteren.",
+              "acne_duration": "Behandeling van 75min.",
               "shine": "Stralende Huid & Uniformiteit",
-              "shine_duration": "Ideaal voor een doffe huid en huiden die gevoelig zijn voor pigmentvlekken. Deze behandeling verheldert de teint, egaliseert de huid en zorgt voor een directe oppepper, terwijl het diep hydrateert.",
+              "shine_duration": "Behandeling van 60min.",
               "micro": "Micro-dermabrasie",
-              "micro_duration": "Reiniging + serum (vitamine) + kalmerend masker of LED-therapie"
+              "micro_duration": "Behandeling van 60min."
             }
         },
 
