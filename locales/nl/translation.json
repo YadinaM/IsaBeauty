@@ -212,8 +212,10 @@
             "option": {
               "face": "Gezicht",
               "face_duration": "Behandeling van 40 min.",
-              "prx": "PRX-T33 Peeling",
-              "prx_duration": "Behandeling van 1 uur.",
+              "prx": "PRX-T33 Peeling 1 sessie",
+              "prx_duration": "Behandeling van 45 min. (Voor een optimaal resultaat worden 4 tot 6 sessies aanbevolen.)",
+              "prx2": "PRX-T33 Peeling 4 sessies",
+              "prx3": "PRX-T33 Peeling 6 sessies",
               "faceAndNeck": "Gezicht, hals en decolleté",
               "faceAndNeck_duration": "Behandeling van 1 uur."
             }

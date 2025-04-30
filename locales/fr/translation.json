@@ -213,8 +213,10 @@
             "option": {
               "face": "Visage",
               "face_duration": "Soin de 40 min.",
-              "prx": "Peeling PRX-T33",
-              "prx_duration": "Soin d'une heure.",
+              "prx": "Peeling PRX-T33 1 séance",
+              "prx2": "Peeling PRX-T33 4 séances",
+              "prx3": "Peeling PRX-T33 6 séances",
+              "prx_duration": "Traitement de 35 min. (Pour un résultat optimal, 4 à 6 séances sont recommandées.)",
               "faceAndNeck": "Visage, cou et décolleté",
               "faceAndNeck_duration": "Soin d'une heure."
             }

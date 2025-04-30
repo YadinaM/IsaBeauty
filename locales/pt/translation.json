@@ -213,8 +213,10 @@
             "option": {
               "face": "Rosto",
               "face_duration": "Tratamento de 40 min.",
-              "prx": "Peeling PRX-T33",
-              "prx_duration": "Tratamento de 1 hora.",
+              "prx": "Peeling PRX-T33 1 sessão",
+              "prx2": "Peeling PRX-T33 4 sessões",
+              "prx3": "Peeling PRX-T33 6 sessões",
+              "prx_duration": "Tratamento de 35 minutos. (Para resultados ideais, recomenda-se entre 4 e 6 sessões.)",      
               "faceAndNeck": "Rosto, pescoço e decote",
               "faceAndNeck_duration": "Tratamento de 1 hora."
             }
